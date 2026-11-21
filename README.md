@@ -1,4 +1,4 @@
-# Levi — Portfólio Interativo
+# Meu Portfólio Interativo
 
 Este é o meu portfólio pessoal, criado para apresentar um pouco de quem eu sou, o que venho estudando e para onde quero levar minha carreira na tecnologia.
 
