@@ -15,12 +15,13 @@ const DATA = [
         id: 'skills', label: 'Habilidades', kicker: 'COMPETÊNCIAS / FUNDAMENTOS', title: 'Minha base técnica', color: 0x8baeff,
         pos: [5.8, 1.7, -.7], size: .44,
         copy: 'Atualmente desenvolvo fundamentos de programação com Python. Também utilizo Git e GitHub para versionar, organizar e publicar meus estudos. Estou em fase de consolidação dessas competências.',
-        tags: ['Python · fundamentos', 'Lógica de programação', 'Git', 'GitHub'],
+        tags: ['Python · fundamentos', 'Lógica de programação', 'Git', 'GitHub', 'linux'],
         topics: [
           ['Python', 'Prática com variáveis, tipos de dados, condicionais, laços de repetição e funções.'],
           ['Lógica', 'Decomposição de problemas, estruturas condicionais, repetição e organização do raciocínio.'],
           ['Git', 'Controle de versão para acompanhar alterações e manter o histórico dos projetos.'],
-          ['GitHub', 'Repositórios para organizar e compartilhar exercícios e projetos de estudo.']
+          ['GitHub', 'Repositórios para organizar e compartilhar exercícios e projetos de estudo.'],
+          ['linux', 'Familiaridade com terminal e comandos Linux, Experiência prática com Arch Linux como sistema operacional principal, mas também possuindo conhecimento em kali, mint.'],
         ]
       },
       {
