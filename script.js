@@ -7,7 +7,7 @@ const DATA = [
         topics: [
           ['Objetivo profissional', 'Quero iniciar minha carreira em desenvolvimento de sistemas, com foco no back-end.'],
           ['Como aprendo', 'Estudo os fundamentos, replico exemplos, entendo o código e pratico com exercícios próprios.'],
-          ['Interesses', 'Desenvolvimento de sistemas, APIs, Linux, redes, python e tecnologia.']
+          ['Interesses', 'Desenvolvimento de sistemas, APIs, redes, python e tecnologia.']
         ],
         links: [{ label: 'GitHub pessoal ↗', url: 'https://github.com/lev1developer' }]
       },
@@ -21,7 +21,7 @@ const DATA = [
           ['Lógica', 'Decomposição de problemas, estruturas condicionais, repetição e organização do raciocínio.'],
           ['Git', 'Controle de versão para acompanhar alterações e manter o histórico dos projetos.'],
           ['GitHub', 'Repositórios para organizar e compartilhar exercícios e projetos de estudo.'],
-          ['linux', 'Familiaridade com terminal e comandos Linux, Experiência prática com Arch Linux como sistema operacional principal, mas também possuindo conhecimento em kali, mint.'],
+          ['linux', 'Familiaridade com terminal e comandos Linux, instalação e gerenciamento de pacotes, configuração e personalização do ambiente de trabalho, experiência prática com Arch Linux como sistema operacional principal, mas também possuo um pouco de conhecimento em kali, mint.'],
         ]
       },
       {
