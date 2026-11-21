@@ -21,7 +21,7 @@ const DATA = [
           ['Lógica', 'Decomposição de problemas, estruturas condicionais, repetição e organização do raciocínio.'],
           ['Git', 'Controle de versão para acompanhar alterações e manter o histórico dos projetos.'],
           ['GitHub', 'Repositórios para organizar e compartilhar exercícios e projetos de estudo.'],
-          ['linux', 'Familiaridade com terminal e comandos Linux, instalação e gerenciamento de pacotes, configuração e personalização do ambiente de trabalho, experiência prática com Arch Linux como sistema operacional principal, mas também possuo um pouco de conhecimento em kali, mint.'],
+          ['linux', 'Familiaridade com terminal e comandos Linux, instalação e gerenciamento de pacotes, configuração e personalização do ambiente de trabalho, experiência prática com Arch Linux como sistema operacional principal, mas também possuo um pouco de conhecimento em kali, mint e ubuntu.'],
         ]
       },
       {
