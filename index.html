@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#070a12" />
+  <meta name="description" content="Portfólio interativo de Levi — desenvolvimento back-end, Python, projetos e trajetória em tecnologia." />
+  <meta property="og:title" content="Levi — Portfólio interativo" />
+  <meta property="og:description" content="Explore minha trajetória em tecnologia por meio de um mapa neural 3D." />
+  <title>Levi — Portfólio Interativo</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="container topbar-inner">
+      <a class="brand" href="#inicio" aria-label="Ir ao início">
+        <span class="brand-mark">L.</span><span class="brand-name">LEVI<span> / DEV</span></span>
+      </a>
+      <nav class="nav" aria-label="Navegação principal">
+        <a href="#inicio">Início</a>
+        <a href="#mapa">Mapa neural</a>
+        <a href="#trajetoria">Trajetória</a>
+        <a href="#contato">Contato</a>
+      </nav>
+      <div class="header-status"><i class="status-dot"></i> FOCO EM BACK-END</div>
+    </div>
+  </header>
+
+  <main>
+    <section class="container hero" id="inicio">
+      <div class="hero-main">
+        <div class="eyebrow">Portfólio interativo · 2026</div>
+        <h1>Construindo sistemas.<br><span class="line-muted">Conectando ideias.</span></h1>
+        <p class="hero-role">Levi · Desenvolvedor back-end em formação</p>
+        <p class="hero-copy">Estou construindo minha trajetória em tecnologia com foco em desenvolvimento back-end. Estudo Python, inteligência artificial e lógica de programação, pratico por meio de pequenos projetos e utilizo Git e GitHub para registrar minha evolução.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#mapa">Explorar meu mapa <span class="arrow">↘</span></a>
+          <a class="button" href="https://github.com/lev1developer" target="_blank" rel="noopener noreferrer">GitHub <span class="arrow">↗</span></a>
+        </div>
+        <div class="hero-meta">
+          <span class="meta-item"><i class="meta-mark"></i> Foco atual: Python</span>
+          <span class="meta-item"><i class="meta-mark" style="background:var(--violet);box-shadow:0 0 9px var(--violet)"></i> Objetivo: Back-end</span>
+          <span class="meta-item"><i class="meta-mark" style="background:var(--green);box-shadow:0 0 9px var(--green)"></i> Aprendizado contínuo</span>
+        </div>
+      </div>
+
+      <div class="profile-window" aria-label="Janela de código inspirada no macOS">
+        <div class="profile-window-inner">
+          <div class="windowbar">
+            <div class="traffic" aria-hidden="true"><i></i><i></i><i></i></div>
+            <span class="window-title">LEVI / PROFILE.PY</span>
+            <span style="width:30px"></span>
+          </div>
+          <div class="profile-code">
+            <div class="file-path"><span class="file-icon">▤</span> ~/levi/portfolio/profile.py</div>
+            <div class="code-line"><span class="ln">01</span><span><span class="token-purple">class</span> <span class="token-cyan">Dev</span>:</span></div>
+            <div class="code-line"><span class="ln">02</span><span>    name = <span class="token-green">"Levi"</span></span></div>
+            <div class="code-line"><span class="ln">03</span><span>    focus = <span class="token-green">"Back-end"</span></span></div>
+            <div class="code-line"><span class="ln">04</span><span>    learning = [</span></div>
+            <div class="code-line"><span class="ln">05</span><span>        <span class="token-amber">"Python"</span>, <span class="token-amber">"Logic"</span>,</span></div>
+            <div class="code-line"><span class="ln">06</span><span>        <span class="token-amber">"Git"</span>, <span class="token-amber">"GitHub"</span></span></div>
+            <div class="code-line"><span class="ln">07</span><span>        <span class="token-amber">"Artificial Intelligence"</span></span></div>
+            <div class="code-line"><span class="ln">08</span><span>    ]</span></div>
+            <div class="code-line"><span class="ln">09</span><span class="token-muted"># always_building()</span></div>
+            <div class="code-divider"></div>
+            <div class="window-foot"><span>PYTHON · LEARNING IN PUBLIC</span><span>● EM DESENVOLVIMENTO</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container section" id="mapa">
+      <div class="section-head">
+        <div>
+          <div class="section-kicker">Explore · Conecte os pontos</div>
+          <h2>Meu mapa de conhecimento</h2>
+        </div>
+        <p class="section-desc">Uma visão interativa da minha trajetória. Cada nó representa uma área, habilidade ou projeto — selecione os pontos e explore como tudo se conecta.</p>
+      </div>
+
+      <div class="map-app">
+        <div class="app-titlebar">
+          <div class="app-title-left">
+            <div class="app-traffic" aria-hidden="true"><i></i><i></i><i></i></div>
+            <span class="app-filename">LEVI.NEURAL-MAP</span>
+          </div>
+          <div class="app-status"><i class="status-dot"></i> SISTEMA INTERATIVO</div>
+        </div>
+        <div class="app-toolbar">
+          <div class="map-title"><span class="map-title-icon">⌘</span><span>Rede neural <small>Conhecimentos, experiências e projetos</small></span></div>
+          <div class="map-tools">
+            <div class="search-wrap">
+              <span class="search-icon">⌕</span>
+              <input id="map-search" type="search" placeholder="Buscar habilidade, projeto..." autocomplete="off" aria-label="Buscar no mapa" />
+              <div class="search-results" id="search-results" role="listbox" aria-label="Resultados da busca"></div>
+            </div>
+            <button class="icon-button" id="toggle-motion" type="button" aria-label="Pausar animações" title="Pausar / retomar partículas" aria-pressed="false">Ⅱ</button>
+          </div>
+        </div>
+
+        <div class="map-layout">
+          <div id="map-stage">
+            <canvas id="network-canvas" tabindex="0" aria-label="Mapa neural 3D interativo. Arraste para girar, use Shift e arraste para mover, scroll para zoom e clique nos nós para explorar."></canvas>
+            <div class="map-loading" id="map-loading">PREPARANDO AMBIENTE 3D...</div>
+            <div class="map-fallback" id="map-fallback">
+              <strong>Explore meu mapa de conhecimento</strong>
+              <p>O modo 3D não ficou disponível neste navegador. Você ainda pode abrir qualquer área pelos atalhos abaixo.</p>
+              <div class="fallback-links" id="fallback-links"></div>
+            </div>
+            <div class="stage-top-left">
+              <div class="stage-eyebrow">VISUALIZAÇÃO ESPACIAL / 01</div>
+              <div class="stage-prompt">Selecione um nó para revelar seus detalhes</div>
+            </div>
+            <div class="stage-hint">ARRASTE PARA GIRAR · SHIFT + ARRASTE PARA MOVER<br>SCROLL PARA APROXIMAR · CLIQUE PARA EXPLORAR</div>
+            <div class="stage-controls">
+              <button class="stage-control" id="zoom-in" type="button" title="Aproximar" aria-label="Aproximar">＋</button>
+              <button class="stage-control" id="zoom-out" type="button" title="Afastar" aria-label="Afastar">−</button>
+              <button class="stage-control" id="reset-view" type="button" title="Centralizar mapa" aria-label="Centralizar mapa">⌖</button>
+            </div>
+            <div class="stage-vignette"></div>
+          </div>
+
+          <aside class="inspector" aria-live="polite" aria-atomic="true">
+            <div class="inspector-top"><span class="inspector-label">Painel de exploração</span><span class="inspector-index" id="inspector-index">01 / 08</span></div>
+            <div class="node-kicker"><i class="node-color" id="node-color"></i><span id="node-kicker">PERFIL / VISÃO GERAL</span></div>
+            <h3 class="node-title" id="node-title">Olá, eu sou Levi.</h3>
+            <p class="node-copy" id="node-copy">Estou construindo minha trajetória na área de tecnologia, com foco em desenvolvimento back-end. Gosto de aprender na prática e transformar conceitos em pequenos projetos.</p>
+            <div class="tag-list" id="node-tags"></div>
+            <div class="inspector-divider"></div>
+            <p class="topic-heading" id="topic-heading">Pontos desta área</p>
+            <div class="topic-list" id="topic-list"></div>
+            <div class="inspector-spacer"></div>
+            <div class="inspector-action" id="inspector-action"></div>
+          </aside>
+        </div>
+
+        <div class="map-footer">
+          <div class="legend"><span><i></i> Áreas principais</span><span><i></i> Habilidades e tópicos</span><span><i></i> Conexões</span></div>
+          <span id="map-counter">08 ÁREAS · NAVEGAÇÃO LIVRE</span>
+        </div>
+      </div>
+
+      <div class="after-map" id="trajetoria">
+        <article class="support-card">
+          <div class="card-kicker">Agora · Foco de desenvolvimento</div>
+          <h3 class="card-title">Construindo uma base sólida em back-end</h3>
+          <p class="card-copy">Minha prioridade é dominar os fundamentos de programação, praticar com projetos próprios e avançar gradualmente para bancos de dados, APIs e desenvolvimento de sistemas.</p>
+          <div class="focus-items"><span class="focus-pill">01 / Python</span><span class="focus-pill">02 / Lógica</span><span class="focus-pill">03 / SQL</span><span class="focus-pill">04 / APIs</span></div>
+        </article>
+        <article class="support-card">
+          <div class="card-kicker">Princípio de trabalho</div>
+          <h3 class="card-title">Aprender, aplicar e evoluir</h3>
+          <p class="card-copy">Organizo meus estudos em etapas: compreender um conceito, experimentar na prática, revisar o código e registrar a evolução no GitHub. Valorizo consistência, curiosidade e resolução de problemas.</p>
+          <div class="focus-items"><span class="focus-pill">Prática constante</span><span class="focus-pill">Versionamento</span><span class="focus-pill">Aprendizado contínuo</span></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="container section" id="contato" style="padding-top:5px">
+      <div class="contact-panel">
+        <div>
+          <div class="section-kicker">Contato · Próxima conexão</div>
+          <h2>Vamos construir algo?</h2>
+          <p>Estou desenvolvendo minha base em programação e compartilhando minha evolução. Você pode acompanhar meus projetos pelo GitHub ou falar comigo pelo Instagram e WhatsApp.</p>
+        </div>
+        <div class="hero-actions" style="margin-top:0">
+          <a class="button primary" href="https://www.instagram.com/lev1sk8/" target="_blank" rel="noopener noreferrer">Instagram <span class="arrow">↗</span></a>
+          <a class="button" href="https://wa.me/5511966662637" target="_blank" rel="noopener noreferrer">WhatsApp <span class="arrow">↗</span></a>
+          <a class="button" href="https://github.com/lev1developer" target="_blank" rel="noopener noreferrer">GitHub <span class="arrow">↗</span></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="container footer">
+    <span>© <span id="year"></span> Levi · Feito com curiosidade e código, site com mudanças constante de acordo com meus conhecimentos.</span>
+    <span><a href="https://github.com/lev1developer" target="_blank" rel="noopener noreferrer">github.com/lev1developer</a></span>
+  </footer>
+  <script src="script.js" type="module"></script>
+</body>
+</html>
