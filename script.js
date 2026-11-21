@@ -81,18 +81,20 @@ const DATA = [
         id: 'contact', label: 'Contato', kicker: 'CONTATO / CONEXÕES', title: 'Vamos conversar?', color: 0xe8a8d3,
         pos: [-1.1, 5.7, -2.4], size: .41,
         copy: 'Entre em contato comigo pelo Instagram ou WhatsApp. Você também pode acompanhar meus estudos e projetos pelo GitHub.',
-        tags: ['Instagram', '@lev1sk8', 'WhatsApp', '+55 11 96666-2637', 'GitHub'],
+        tags: ['Instagram', '@lev1sk8', 'WhatsApp', '+55 11 96666-2637', 'GitHub', 'linkedin'],
         topics: [
           ['Instagram', 'Meu perfil: @lev1sk8.'],
           ['WhatsApp', 'Entre em contato pelo número +55 11 96666-2637.'],
           ['GitHub', 'Perfil público com repositórios e projetos de estudo.'],
-          ['Repositório de estudos', 'Exercícios e práticas de Python organizados ao longo da minha evolução.']
+          ['Repositório de estudos', 'Exercícios e práticas de Python organizados ao longo da minha evolução.'],
+          ['linkedin', 'meu perfil profissional no linkedin.'],
         ],
         links: [
           { label: 'Instagram ↗', url: 'https://www.instagram.com/lev1sk8/' },
           { label: 'WhatsApp ↗', url: 'https://wa.me/5511966662637' },
           { label: 'GitHub ↗', url: 'https://github.com/lev1developer' },
-          { label: 'Estudos-python ↗', url: 'https://github.com/lev1developer/estudos-python' }
+          { label: 'Estudos-python ↗', url: 'https://github.com/lev1developer/estudos-python' },
+          { label: 'LinkedIn ↗', url: 'https://www.linkedin.com/in/felipe-levi-238ba1367' },
         ]
       }
     ];
