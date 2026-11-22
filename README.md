@@ -75,7 +75,3 @@ Ainda tenho bastante coisa para aprender — e é justamente por isso que estou 
 - **GitHub:** [@lev1developer](https://github.com/lev1developer)
 - **Instagram:** [@lev1sk8](https://www.instagram.com/lev1sk8/)
 - **WhatsApp:** [Conversar comigo](https://wa.me/5511966662637)
-
----
-
-Feito por Levi, com curiosidade, prática e vontade de evoluir. 🙂
